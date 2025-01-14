@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The World of Organic Geometry</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on The World of Organic Geometry</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jan 2025 08:00:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Organic geometry</title>
+      <link>http://localhost:1313/posts/2025-14-01/</link>
+      <pubDate>Tue, 14 Jan 2025 08:00:49 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2025-14-01/</guid>
+      <description>&lt;h2 id=&#34;whats-in-a-word&#34;&gt;What&amp;rsquo;s in a word&lt;/h2&gt;&#xA;&lt;p&gt;Rene Desargues (1591-1661), inspired by the advent of perspective painting&#xA;in the Renaissance,&#xA;discovered a strange new geometry, which he left unnamed.&#xA;Although it vanished almost without a trace soon after his death, it reappeared in the&#xA;19th century and became an central pillar of modern mathematics.&lt;/p&gt;&#xA;&lt;p&gt;In the course of its development, it has been variously named&#xA;projective, synthetic, higher, or simply the new geometry, all names&#xA;mirror the manifold aspects that that this development has revealed.&#xA;However, it was not until the book&#xA;&amp;ldquo;Introduction to organic geometry&amp;rdquo; by Heinrich Gretschel (1830-1892) appeared in 1868&#xA;that an adequate name was found doing justice to the intimate way in which&#xA;geometric entities are interwoven in this geometry.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

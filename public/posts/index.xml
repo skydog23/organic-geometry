@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on The World of Organic Geometry</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on The World of Organic Geometry</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jan 2025 08:00:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Organic geometry</title>
+      <link>http://localhost:1313/posts/2025-14-01/</link>
+      <pubDate>Tue, 14 Jan 2025 08:00:49 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2025-14-01/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-the-website&#34;&gt;Welcome to the website&lt;/h2&gt;&#xA;&lt;p&gt;I find, however, that the theorem connects itself in a somewhat&#xA;interesting way with that general conception of geometrical&#xA;facts which regards all the properties of a curve or other&#xA;continuous figure as depending upon its order alone, and which&#xA;it has become usual to call Synthetic Geometry. I am not&#xA;satisfied with the word, and use it under protest for want of a&#xA;better. The thing should be more widely known than it is in&#xA;this country; the simplicity and instructiveness of its application&#xA;in the present case are my reasons for calling attention&#xA;to a matter otherwise unimportant. Those who are of the mind&#xA;of Herr Gretschel may substitute for the words &amp;ldquo;Synthetic&#xA;Proof,&amp;rdquo; &amp;ldquo;Proof by Organic Geometry.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
