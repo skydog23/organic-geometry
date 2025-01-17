@@ -1,13 +1,10 @@
 +++
 date = '2025-01-17T14:05:11+01:00'
 draft = true
-title = 'Mathlehrertagung Sample page'
+title = ' Sample page'
 +++
 
 ## A sample page
-
-### Mathelehrertagung Berlin 
-The (incomplete) slides for Thomas Neukirchner's talk at the MatheLehreTagung in Berlin on 18.01.2025 can be found [here](https://neukirchners.de/s/N5k7cm24JwNM8Hw).
 
 ### Interactive GeoGebra demo
 
