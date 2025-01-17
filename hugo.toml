@@ -1,4 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://skydog23.github.io/organic-geometry'
 languageCode = 'en-us'
 title = 'The World of Organic Geometry'
 theme = 'ananke'
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark]
+    extensions = ["table", "strikethrough"]
+    [markup.goldmark.renderer]
+      unsafe = true # Allows raw HTML in Markdown (use with caution!)

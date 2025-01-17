@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on The World of Organic Geometry</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on The World of Organic Geometry</description>
+    <title>Posts on </title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jan 2025 08:00:49 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 17 Jan 2025 14:05:11 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathlehrertagung Sample page</title>
+      <link>//localhost:1313/posts/2025-17-01-mathelehre/</link>
+      <pubDate>Fri, 17 Jan 2025 14:05:11 +0100</pubDate>
+      <guid>//localhost:1313/posts/2025-17-01-mathelehre/</guid>
+      <description>&lt;h2 id=&#34;a-sample-page&#34;&gt;A sample page&lt;/h2&gt;&#xA;&lt;h3 id=&#34;mathelehrertagung-berlin&#34;&gt;Mathelehrertagung Berlin&lt;/h3&gt;&#xA;&lt;p&gt;The (incomplete) slides for Thomas Neukirchner&amp;rsquo;s talk at the MatheLehreTagung in Berlin on 18.01.2025 can be found &lt;a href=&#34;https://neukirchners.de/s/N5k7cm24JwNM8Hw&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;interactive-geogebra-demo&#34;&gt;Interactive GeoGebra demo&lt;/h3&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h3 id=&#34;ganjajs-demo&#34;&gt;ganja.js demo&lt;/h3&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
     <item>
       <title>Organic geometry</title>
-      <link>http://localhost:1313/posts/2025-14-01/</link>
+      <link>//localhost:1313/posts/2025-14-01/</link>
       <pubDate>Tue, 14 Jan 2025 08:00:49 +0100</pubDate>
-      <guid>http://localhost:1313/posts/2025-14-01/</guid>
-      <description>&lt;h2 id=&#34;welcome-to-the-website&#34;&gt;Welcome to the website&lt;/h2&gt;&#xA;&lt;p&gt;I find, however, that the theorem connects itself in a somewhat&#xA;interesting way with that general conception of geometrical&#xA;facts which regards all the properties of a curve or other&#xA;continuous figure as depending upon its order alone, and which&#xA;it has become usual to call Synthetic Geometry. I am not&#xA;satisfied with the word, and use it under protest for want of a&#xA;better. The thing should be more widely known than it is in&#xA;this country; the simplicity and instructiveness of its application&#xA;in the present case are my reasons for calling attention&#xA;to a matter otherwise unimportant. Those who are of the mind&#xA;of Herr Gretschel may substitute for the words &amp;ldquo;Synthetic&#xA;Proof,&amp;rdquo; &amp;ldquo;Proof by Organic Geometry.&amp;rdquo;&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/2025-14-01/</guid>
+      <description>&lt;h2 id=&#34;whats-in-a-word&#34;&gt;What&amp;rsquo;s in a word&lt;/h2&gt;&#xA;&lt;p&gt;Rene Desargues (1591-1661), inspired by the advent of perspective painting&#xA;in the Renaissance,&#xA;discovered a new and intriguing geometry, which he left unnamed.&#xA;Although it vanished almost without a trace soon after his death, it reappeared in the&#xA;early 19th century and by the end of the century became an central pillar of modern mathematics,&#xA;at which point its development reached a plateau.&lt;/p&gt;&#xA;&lt;p&gt;In the course of its development, it has been variously named&#xA;projective, synthetic, higher, or simply the new geometry, all names&#xA;that mirror the manifold aspects that that this development has revealed.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
