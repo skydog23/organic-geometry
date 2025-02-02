@@ -1,0 +1,3 @@
+<div class="code-box" style="background-color: {{ .Get "background" | default "#f0f0f0" }}; border-color: {{ .Get "border" | default "#ccc" }};">
+  {{ .Inner | safeHTML }}
+</div>
