@@ -2,39 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/organic-geometry/contact/</loc>
+    <lastmod>2025-01-22T11:33:38+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/organic-geometry/</loc>
+    <lastmod>2025-01-22T11:33:38+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/organic-geometry/about/</loc>
+    <lastmod>2025-01-22T11:31:50+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/organic-geometry/posts/2025-17-01-mathelehre/</loc>
+    <lastmod>2025-01-17T14:05:11+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/organic-geometry/posts/</loc>
     <lastmod>2025-01-17T14:05:11+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/organic-geometry/posts/2025-14-01/</loc>
     <lastmod>2025-01-14T08:00:49+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/organic-geometry/tags/blue/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/organic-geometry/tags/green/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/organic-geometry/posts/post-3/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/organic-geometry/tags/red/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/organic-geometry/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/organic-geometry/tags/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/organic-geometry/posts/post-2/</loc>
-    <lastmod>2023-02-15T10:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/organic-geometry/posts/post-1/</loc>
-    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/organic-geometry/posts/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/organic-geometry/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/organic-geometry/categories/</loc>
   </url>
 </urlset>

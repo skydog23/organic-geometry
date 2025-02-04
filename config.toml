@@ -1,7 +1,7 @@
 baseURL = 'https://skydog23.github.io/organic-geometry'
 languageCode = 'en-us'
 title = 'The World of Organic Geometry'
-theme = 'charlie'
+theme = 'ananke'
 [markup]
   [markup.goldmark]
   [markup.goldmark.renderer]
