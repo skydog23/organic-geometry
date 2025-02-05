@@ -1,0 +1,35 @@
+/* filepath: /Users/gunn/Google Drive/mysite/hugo/pgbook/static/css/custom.css */
+.center-figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* filepath: /Users/gunn/Google Drive/mysite/hugo/pgbook/static/css/custom.css */
+.float-figure {
+    float: left; /* or right */
+    margin: 0 15px 15px 0; /* Adjust margins as needed */
+}
+.small-text {
+    font-size: 12px;
+    text-align: right;
+}
+blockquote {
+    font-style: italic;
+}
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+/* filepath: /Users/gunn/Google Drive/mysite/hugo/pgbook/static/css/custom.css */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between; /* Adjust alignment as needed */
+}
+.flex-item {
+    margin-right: 15px; /* Adjust margin as needed */
+}
