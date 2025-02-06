@@ -1,5 +1,5 @@
-#baseURL = "https://skydog23.github.io/organic-geometry"
-baseURL = "http://localhost:1313/"
+baseURL = "https://skydog23.github.io/organic-geometry"
+#baseURL = "http://localhost:1313/"
 languageCode = 'en-us'
 title = 'The World of Organic Geometry'
 theme = 'ananke'
