@@ -1,4 +1,5 @@
 #baseURL="http://localhost:1313/"
+background_color_class = "bg-blue"
 languageCode = 'en-us'
 title = 'The World of Organic Geometry'
 theme = 'ananke'

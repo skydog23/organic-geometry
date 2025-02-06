@@ -1,2 +1,4 @@
 # filepath: /Users/gunn/Google Drive/mysite/hugo/pgbook/.gitignore
 public/
+/resources/_gen/
+/hugo_cache/
