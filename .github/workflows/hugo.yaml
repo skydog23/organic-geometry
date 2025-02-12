@@ -54,8 +54,8 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: America/Los_Angeles
-#          HUGO_BASEURL: https://skydog23.github.io/organic-geometry/ 
+#          TZ: Berlin
+          HUGO_BASEURL: https://skydog23.github.io/organic-geometry/ 
         run: |
           hugo \
             --gc \
