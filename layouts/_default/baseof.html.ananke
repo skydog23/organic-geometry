@@ -25,6 +25,10 @@
       ">
     {{ end }}
 
+    {{ if .Param "math" }}
+      {{ partialCached "math.html" . }}
+    {{ end }}   
+
     {{ partial "site-style.html" . }}
     {{ partial "site-scripts.html" . }}
 

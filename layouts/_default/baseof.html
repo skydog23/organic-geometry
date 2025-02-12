@@ -1,3 +1,4 @@
+<!-- This is a copy of the ananke _default/baseof.html with support for math formatting -->
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}" {{- with partialCached "func/GetLanguageDirection.html" "GetLanguageDirection" }} dir="{{ . }}" {{- end }}>
   <head>
@@ -24,6 +25,10 @@
         {{- end -}}
       ">
     {{ end }}
+
+    {{ if .Param "math" }}
+      {{ partialCached "math.html" . }}
+    {{ end }}   
 
     {{ partial "site-style.html" . }}
     {{ partial "site-scripts.html" . }}
