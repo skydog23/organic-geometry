@@ -54,11 +54,11 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-#          TZ: Berlin
-#          HUGO_BASEURL: https://skydog23.github.io/ 
+          TZ: America/Los_Angeles
         run: |
           hugo \
-            --gc                   
+            --gc \
+             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
