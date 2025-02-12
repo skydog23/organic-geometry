@@ -4,7 +4,6 @@ languageCode = 'en-us'
 title = 'The Wild Wonderful World of Organic Geometry'
 theme = 'ananke'
 relativeURLs = true
-canonifyURLs = true
 [markup]
   [markup.goldmark]
   [markup.goldmark.renderer]
