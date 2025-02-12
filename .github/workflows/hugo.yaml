@@ -58,8 +58,7 @@ jobs:
           HUGO_BASEURL: https://skydog23.github.io/organic-geometry/ 
         run: |
           hugo \
-            --gc \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"                  
+            --gc                   
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
