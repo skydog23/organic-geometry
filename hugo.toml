@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'The Wonderful World of Organic Geometry'
+theme = 'hugo-book'
+[markup]
+  [markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe=true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['$', '$']]
+[params]
+  math = true
+  BookSection = '*'

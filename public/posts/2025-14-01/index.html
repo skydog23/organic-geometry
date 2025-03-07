@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  The rise of a new geometry
+  #
+
+Girard Desargues (1591-1661),
+mathematician, architect and engineer,
+discovered a new and intriguing geometry, which he reported on in the short book
+&ldquo;Rough draft of an essay on the results of taking plane sections of a cone&rdquo; (1639).
+Introducing new concepts into geometry related to the rise of perspective painting,
+the book provided startling new proofs of
+Apollonius&rsquo;s classical results on conics.
+Desargues&rsquo; work was far ahead of its time, and vanished almost without a trace soon after his death.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/2025-14-01/">
+  <meta property="og:site_name" content="The Wonderful World of Organic Geometry">
+  <meta property="og:title" content="Organic geometry">
+  <meta property="og:description" content="The rise of a new geometry # Girard Desargues (1591-1661), mathematician, architect and engineer, discovered a new and intriguing geometry, which he reported on in the short book “Rough draft of an essay on the results of taking plane sections of a cone” (1639). Introducing new concepts into geometry related to the rise of perspective painting, the book provided startling new proofs of Apollonius’s classical results on conics. Desargues’ work was far ahead of its time, and vanished almost without a trace soon after his death.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-14T08:00:49+01:00">
+    <meta property="article:modified_time" content="2025-01-14T08:00:49+01:00">
+<title>Organic geometry | The Wonderful World of Organic Geometry</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/posts/2025-14-01/">
+<link rel="stylesheet" href="/book.min.9b0b81023be0aa8ccbb78fa1247abe89dfb57804e62647347130278c5a2e3452.css" integrity="sha256-mwuBAjvgqozLt4&#43;hJHq&#43;id&#43;1eATmJkc0cTAnjFouNFI=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.c5f8e4142da225d345e24d37b8a44582902b946a8b70c7c9f8332524cd906bcc.js" integrity="sha256-xfjkFC2iJdNF4k03uKRFgpArlGqLcMfJ&#43;DMlJM2Qa8w=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['$', '$']]                  
+    }
+  };
+</script>
+
+
+<link rel="stylesheet" href="/css/prism.css">
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>The Wonderful World of Organic Geometry</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Blog</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/posts/creating-a-new-theme/" class="">Creating a New Theme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/posts/migrate-from-jekyll/" class="">Migrating from Jekyll</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/posts/testpost/" class="">Testing testing testing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/posts/2025-17-01-mathelehre/" class="">Sample page</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/posts/2025-14-01/" class="active">Organic geometry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/posts/goisforlovers/" class="">(Hu)go Template Primer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/posts/hugoisforlovers/" class="">Getting Started with Hugo</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Docs</span>
+  
+
+          
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/example/" class="">Example Site</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/" class="">Table of Contents</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/with-toc/" class="">With ToC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/table-of-contents/without-toc/" class="">Without ToC</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0311f8e2e405a899eb2ba303e98c0b31" class="toggle"  />
+    <label for="section-0311f8e2e405a899eb2ba303e98c0b31" class="flex justify-between">
+      <a role="button" class="">Collapsed</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/collapsed/3rd-level/" class="">3rd Level</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/example/collapsed/3rd-level/4th-level/" class="">4th Level</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <span>Shortcodes</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/hints/" class="">Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/shortcodes/katex/" class="">KaTeX</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Organic geometry</h3>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-rise-of-a-new-geometry">The rise of a new geometry</a></li>
+    <li><a href="#the-future-of-organic-geometry">The future of organic geometry</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h2>
+    Organic geometry
+  </h2>
+  
+  <div class="flex align-center text-small book-post-date">
+    <img src="/svg/calendar.svg" class="book-icon " alt="" />
+    <span>January 14, 2025</span>
+  </div>
+
+
+
+  
+
+  
+
+
+  <div class="book-post-content"><h2 id="the-rise-of-a-new-geometry">
+  The rise of a new geometry
+  <a class="anchor" href="#the-rise-of-a-new-geometry">#</a>
+</h2>
+<p><a href="https://en.wikipedia.org/wiki/G%c3%a9rard_Desargues">Girard Desargues</a> (1591-1661),
+mathematician, architect and engineer,
+discovered a new and intriguing geometry, which he reported on in the short book
+&ldquo;Rough draft of an essay on the results of taking plane sections of a cone&rdquo; (1639).
+Introducing new concepts into geometry related to the rise of perspective painting,
+the book provided startling new proofs of
+Apollonius&rsquo;s classical results on conics.
+Desargues&rsquo; work was far ahead of its time, and vanished almost without a trace soon after his death.</p>
+<p>It re-emerged
+in France at the turn of the 19th century, with renewed force, and grew steadily over the next decades,
+supported by an international community of gifted mathematicians,
+revealing a structure of depth, simplicity, and beauty. Particularly the principle of <em>duality</em> that lies
+at its core exerted a fascination that continues to this day.
+By the end of the century it had become a central pillar of modern mathematics.</p>
+<p>In the course of its development, it has been variously named
+<em>projective</em>, <em>synthetic</em>, <em>higher</em>, or simply the <em>new</em> geometry, the variety
+of names mirroring its multi-faceted nature and development.
+This website bears the name of yet another of its names: <em>organic geometry</em>,
+following an article from 1870 by the English mathematician <a href="https://en.wikipedia.org/wiki/William_Kingdon_Clifford">William Clifford</a> (1845-1879), devoted to a proof of a theorem in euclidean geometry using the methods of the new geometry.  At the end Clifford writes:</p>
+<blockquote class="styled-blockquote">
+<p>I find, however, that the theorem connects itself in a somewhat
+interesting way with that general conception of geometrical
+facts which regards all the properties of a curve or other
+continuous figure as depending upon its order alone, and which
+it has become usual to call Synthetic Geometry. I am not 
+satisfied with the word, and use it under protest for want of a
+better. The thing should be more widely known than it is in
+this country; the simplicity and instructiveness of its application
+in the present case are my reasons for calling attention
+to a matter otherwise unimportant. Those who are of the mind
+of Herr Gretschel may substitute for the words "Synthetic
+Proof," "Proof by Organic Geometry."</p>
+<p class="small-text"> William Clifford, "Synthetic Proof of Miguel's Theorem", 1870</p>
+</blockquote>
+<div class="flex-container">
+    <figure class="flex-item">
+        <img src="/images/MacLaurinFrontPage.jpg" width="270px" alt="Maclaurin Front Page">
+        <figcaption>Organic geometry, 1720 ...</figcaption>
+    </figure>
+    <figure class="flex-item">
+        <img src="/images/GretschelFrontPage.png" width="250px" alt="Gretschel Front Page">
+        <figcaption>... and 1868.</figcaption>
+    </figure>
+</div>
+<p>The reference to Herr Gretschel led us to the book &ldquo;Introduction to organic geometry&rdquo; (1868) by the German mathematican and polymath <a href="https://en.wikipedia.org/wiki/Heinrich_Friedrich_Gretschel">Heinrich Gretschel</a>  (1830-1892). At the first section, &ldquo;The Task of Organic Geometry&rdquo;, he writes:</p>
+<blockquote class="styled-blockquote">
+Organic geometry has to identify and examine closely the spatial elements whose interconnections give rise to the various geometric forms, curves, and surfaces. It then has to demonstrate how the latter structures are generated by these elements and at the same time, how the properties of the generating elements show up in the generated structures.
+If this is done successfully, then, to use the words of a master, we can find the common root of the manifold properties of spatial structures which mathematicians of the past and present have discovered in abundance using many diverse methods,  and "reveal the organism through which the diverse phenomena of the space world are intertwined".
+<p class="small-text"> Heinrich Gretschel, "Organische Geometrie", 1870, p. 1</p>
+</blockquote>
+<p>The <em>master</em> referred to here is the Swiss geometer <a href="https://en.wikipedia.org/wiki/Jakob_Steiner">Jakob Steiner</a> (1796-1863), a towering figure in the creation of projective geometry.</p>
+<p>Gretschel indicates that he is not the first to use the term &ldquo;organic geometry&rdquo;.
+Perhaps he had in mind the treatise &ldquo;Geometria Organica&rdquo; (1720) by <a href="https://en.wikipedia.org/wiki/Colin_Maclaurin">Colin Maclaurin</a>  (1698-1746),
+a ground-breaking work that applied Newtonian methods to study curves of higher order. Rather than thinking of curves as static objects, he considers them as arising from motion of points or lines. Maclaurin can be seen a transitional figure, from the time after Desargues&rsquo; work had been forgotten and before its rediscovery in the 19th century. In many regards he was a projective geometer without knowing it. For example, the methods that he discovered for generating conics are projective ones, and the theorem that bears his name is a specialization of Pascal&rsquo;s Theorem, and an important theorem of projective geometry in its own right.</p>
+<p>From this we see that the use of the name <em>organic geometry</em> for projective geometry has a long tradition.  A first aim of this website is to cultivate the  heritage of this geometry by informing and educating the visitor about organic geometry,
+its history, development, contents, and current state, through articles, blogs, e-books, interactive demos, videos, and discussion forums.</p>
+<h2 id="the-future-of-organic-geometry">
+  The future of organic geometry
+  <a class="anchor" href="#the-future-of-organic-geometry">#</a>
+</h2>
+<blockquote class="styled-blockquote">
+How can it be that mathematics, being after all a product of human thought which is independent of experience, is so admirably appropriate to the objects of reality?" 
+<p class="small-text"> Albert Einstein</p>
+</blockquote>
+The "unreasonable effectiveness of mathematics" is a common theme among scientists reflecting on the role that mathematics plays in the natural sciences. 
+There are abundant examples of mathematical ideas which, after a delay of decades or centuries, are found to
+provide the key to a new understanding of the natural world. What is the situation of projective geometry in this regard?
+<p>The quotes from Gretschel and Steiner above point to the deep connection between organic geometry and the riddle of space &ndash; the space of Nature and of human experience. To understand this connection fully, one needs first to become acquainted with the principle of <em>duality</em>, a deep symmetry penetrating all organic geometry.  Such an introduction lies outside the scope of this post, but we can still indicate the direction this might take.</p>
+<p>Already Michael Chasles, a pioneer of projective geometry, imagined how duality might prove to be a universal law of Nature:</p>
+<blockquote class="styled-blockquote">
+But other laws of duality, based on other principles, will be found in the various parts of the mathematical sciences; and we believe we will be led to admit, as we have already said in our Note on the definition of Geometry, that a universal dualism is the great law of nature, and reigns in all parts of the knowledge of the human mind.
+<p>Can we even foresee where the consequences of such a principle of duality would end? Having linked together all the phenomena of nature, and the mathematical laws that govern them, would this principle not go back to the very causes of these phenomena? And can we then say that the law of gravitation would not be matched by another law that would play the same role as Newton&rsquo;s, and would serve like it to explain celestial phenomena?”</p>
+<p class="small-text"> Michel Chasles, **Aperçu historique sur l'origine et le développement des méthodes en géométrie**, 1837.
+</blockquote>
+<p>Despite Chasles&rsquo; optimistic tone, the principle of duality has been slow to find its way into scientific discourse.  The chief challenge is at the same time the chief promise: to bring projective duality into play in a productive way.
+For example, many of the geometric discoveries in the $19^{th}$ century have found their way into the modern concept of space &ndash; but the underlying picture is a space made up of points.<br>
+By projective duality, it is equally possible to build up space out of planes. To understand what this enigmatic statement exactly means requires a study and practice of projective geometry that this website hopes to offer.</p>
+<p>Once familiarity with projective geometry is made, one can begin to learn how pioneer researchers have
+begin in the past century to explore how the duality-enhanced concept of space can shed light on<br>
+a range of phenomena that have until now have defied full understanding. For example, such a concept of
+space based on dynamic duality may provide a path to a grasping living phenomena without having to take
+recourse to mechanical concepts. This website aims to highlight these beginnings and cultivate their further growth.</p>
+<p>Whether you are interested in organic geometry as mathematics or as a possible tool, this website is for you. Please visit again as more content is added.</p>
+<p>&ndash;Charlie Gunn</p>
+</div>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-rise-of-a-new-geometry">The rise of a new geometry</a></li>
+    <li><a href="#the-future-of-organic-geometry">The future of organic geometry</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

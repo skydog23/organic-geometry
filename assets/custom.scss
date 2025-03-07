@@ -1,0 +1,110 @@
+$blockquote-background:  hsl(30, 55%, 96%) !default;
+.center-figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.float-figure {
+    float: left; /* or right */
+    margin: 0 15px 15px 0; /* Adjust margins as needed */
+}
+.small-text {
+    font-size: 12px;
+    text-align: right;
+}
+.styled-blockquote {
+  margin: 2em 4em; /* Top/bottom margin, left/right margin */
+  padding: 1em 2em; /* Top/bottom padding, left/right padding */
+  border-left: 4px solid #ccc; /* Subtle left border for visual cue */
+  font-style: italic; /* Emphasize the text */
+  color: #555; /* Slightly muted text color */
+  background-color: $blockquote-background; /* Very light background for contrast */
+  font-size: 1.0em; /* Slightly the same font size */
+  line-height: 1.6; /* Increased line height for readability */
+  border-radius: 5px; /* Optional: Rounded corners */
+  quotes: "“" "”" "‘" "’"; /* Sets custom quote marks */
+}
+
+
+figcaption {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between; /* Adjust alignment as needed */
+}
+.flex-item {
+    margin-right: 15px; /* Adjust margin as needed */
+}
+pre {
+  padding: 0px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-all;
+  line-height: 1.4;
+  font-size: 14px;
+}
+pre.mylatex {
+  background-color: hsl(166, 68%, 95%); 
+  color: #060606;
+    // border: 3px solid #67f509; /* 1px wide, solid, light gray border */
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+// pre.mylatex code {
+//   font-size: 14px;
+//   color: #333;
+// }
+// body {
+//     font-family: "Georgia", "Times New Roman", serif;
+//  }
+// h1 {
+//       font-family: "Helvetica", "Arial", sans-serif;
+//  }
+  
+code {
+      font-family: "Courier New", "Consolas", monospace;
+ }
+  
+.page-container {
+      display: flex;
+      flex-direction: column;
+      /* Arrange items horizontally */
+      justify-content: center;
+      /* Center horizontally */
+      align-items: center;
+      /* Align to the top (or center vertically if needed) */
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      width: 90%;
+      max-width: 800px;
+}
+  
+// body {
+//       font-family: serif;
+//       /* Choose a font you like */
+//       margin: 0;
+//       /* Remove default body margins */
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       /* Center horizontally */
+//       align-items: center;
+//       /* Center vertically (optional) */
+//       min-height: 100vh;
+//       /* Ensure full viewport height for vertical centering */
+  
+// }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suffering on The Wonderful World of Organic Geometry</title>
+    <link>http://localhost:1313/categories/suffering/</link>
+    <description>Recent content in Suffering on The Wonderful World of Organic Geometry</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/suffering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing testing testing</title>
+      <link>http://localhost:1313/posts/testpost/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/testpost/</guid>
+      <description>&lt;!-- Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for&#xA;its template engine. It is an extremely lightweight engine that provides a very&#xA;small amount of logic. In our experience that it is just the right amount of&#xA;logic to be able to create a good static website. If you have used other&#xA;template systems from different languages or frameworks you will find a lot of&#xA;similarities in Go templates. --&gt;&#xA;&lt;h2 id=&#34;sandbox-for-testing-css-styles&#34;&gt;&#xA;  Sandbox for testing css styles&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sandbox-for-testing-css-styles&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I am trying to get the appearance of my blog entries to look good. I am using &lt;em&gt;css classes&lt;/em&gt; for this purpose.&#xA;With the hugo-book theme, I am beginning to have some success!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
