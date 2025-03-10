@@ -70,6 +70,16 @@ Desargues stammte aus einer angesehenen Familie von Juristen in Paris und in Lyo
 <p> How is this looking?</p>
 </div>
 
+### Printing code just by indenting properly
 
+It appears to me that just by indenting text as if it were code, the text will be displayed as code! Let's try that out:
+
+    var panel = ram_design;
+    if (backup + system) {
+        file.readPoint = network_native;
+        sidebar_engine_device(cell_tftp_raster,
+                dual_login_paper.adf_vci.application_reader_design(
+                graphicsNvramCdma, lpi_footer_snmp, integer_model));
+    }
 [go]: https://golang.org/
 [gohtmltemplate]: https://golang.org/pkg/html/template/
