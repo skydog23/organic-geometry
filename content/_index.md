@@ -3,30 +3,43 @@ title: Introduction
 type: docs
 ---
 
-# Acerbo datus maxime
+# Introduction 
 
 {{% columns %}}
-## Astris ipse furtiva
+## Pascal's Theorem 
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+<div style=" margin: 1em; max-width: 80%; border: 1px solid #ccc; padding: 0.0em;">
+  <figure>
+    <img src="/images/pascalThm.png"  alt="My Image">
+      <figcaption style="text-align: center; font-size: 0.8em;">Pascal's Theorem (1640)</figcaption>
+  </figure>
+</div>
+
+<div>
+<p>The meeting points of opposite sides of a hexagon inscribed in a conic section are collinear. </p>
+</div>
+
+### Discussion
+The hexagon is given in the figure by $ABCA'B'C'$. The opposite sides are the lines $\{AA',BB',CC'\}$. Their intersections points are $A'' = BB' \wedge CC'$, etc. And they always lie on a line!
 
 <--->
 
-## Suis quot vota
+## Brianchon's Theorem
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
+<div style="margin: 1em; max-width: 80%; border: 1px solid #ccc; padding: 0.0em;">
+  <figure>
+    <img src="/images/brianchonThm.png"  alt="My Image">
+    <figcaption style="text-align: center; font-size: 0.8em;">Brianchon's Theorem (1814)</figcaption>
+  </figure>
+</div>
+The joining lines of opposite vertices of a hexalateral circumscribed around a conic section are co-punctual.
+
 {{% /columns %}}
 
 
-## Tempora nisi nunc
+## Further thoughts
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+It appears to me that just by indenting text as if it were code, the text will be displayed as code! Let's try that out:
 
     var panel = ram_design;
     if (backup + system) {
@@ -36,6 +49,3 @@ sequens!
                 graphicsNvramCdma, lpi_footer_snmp, integer_model));
     }
 
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
