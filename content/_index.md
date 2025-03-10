@@ -7,7 +7,7 @@ type: docs
 
 If you've never encountered projective geometry before, you're in for a treat. Like everything new, it can take some time to understand it. We'll just dive right in.
 
-One of the deepest aspects of projective geometry is the principle of *duality*. whereby every figure or theorem has a dual partner. One of the most famous pair of dual theorems Pascal's Theorem (1640), and Brianchon's Theorem (1814). We present the theorems using two columns, a traditional feature of writings on projective geometry. The reader can confirm that the theorems differ only by a small subset of terms, that will be discussed in more detail elsewhere on this site. 
+One of the deepest aspects of projective geometry is the principle of *duality*, whereby every figure or theorem has a dual partner. One of the most famous pair of dual theorems Pascal's Theorem (1640), and Brianchon's Theorem (1814). We present the theorems using two columns, a traditional feature of writings on projective geometry. The reader can confirm that the theorems differ only by a small subset of terms, that will be discussed in more detail elsewhere on this site. 
 
 {{% columns %}}
 ## Pascal's Theorem 
