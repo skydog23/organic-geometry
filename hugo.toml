@@ -1,3 +1,4 @@
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'The Wonderful World of Organic Geometry'
 theme = 'hugo-book'
