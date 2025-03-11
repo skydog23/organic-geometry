@@ -1,7 +1,7 @@
 +++
-date = '2025-01-14T08:00:49+01:00'
+date = "2025-01-14"
 draft = false
-title = 'Organic geometry'
+title = "Organic geometry"
 +++
 
 ## The rise of a new geometry

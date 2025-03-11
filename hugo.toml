@@ -12,7 +12,17 @@ theme = 'hugo-book'
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['$', '$']]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        enableDefault = true
 [params]
   math = true
-  BookSection = 'posts'
+  BookSection = '*'
   BookLogo = 'projgeom.png'
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'static'
+    target = 'assets'

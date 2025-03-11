@@ -24,7 +24,7 @@ Algebra(2,0,1, ()=>{
         scale:2,
         grid:false
     }))
-    svg.style.background=redbluelerp(1-sin(1))
+    svg.style.background=redbluelerp(1-sin(1));
 //        svg.style.background='transparent';
     svg.style.width ='100%';
     svg.style.height='100%';

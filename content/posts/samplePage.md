@@ -21,8 +21,21 @@ JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y
 ### Interactive GeoGebra demo
 
 Here is a GeoGebra demo of Pascal's theorem. You can't access the main menu but you can use the construction tools.
+First we show both in a 2-column format. Unfortunately the GeoGebra borders are huge and I don't know how to omit them.
+
+<div class="two-column-container">
+  <div class="column">
+   <iframe src="https://www.geogebra.org/geometry/v7ecqzxy?embed" width="100%" height="300px" style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+  </div>
+  <div class="column">
+      <iframe src="https://www.geogebra.org/geometry/zr8z2gsj?embed" width="100%" height="300px" style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe> 
+  </div>
+</div>
+
+Here are the same demos at full size.
 
 <div style="width: 700px; height: auto; overflow: scroll; border: 1px solid ;">
+<iframe src="https://www.geogebra.org/geometry/v7ecqzxy?embed" width="700" height="500" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 <iframe src="https://www.geogebra.org/geometry/zr8z2gsj?embed" width="700px" height="500" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 </div>
 

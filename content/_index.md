@@ -3,7 +3,7 @@ title: Introduction
 type: docs
 ---
 
-# Introduction 
+# Welcome 
 
 If you've never encountered projective geometry before, you're in for a treat. Like everything new, it can take some time to understand it. We'll just dive right in.
 

@@ -17,3 +17,9 @@ Here's some text.
 </div>
 <script src="/js/ganja/testGanja.js"></script>
 
+
+<div id="ganja-script"  width:100%; height:100%; background:#ffffcc">
+Here's some text.
+</div>
+<script src="/js/ganja/duality.js"></script>
+
