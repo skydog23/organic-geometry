@@ -14,5 +14,5 @@ theme = 'hugo-book'
           inline = [['$', '$']]
 [params]
   math = true
-  BookSection = '*'
+  BookSection = 'posts'
   BookLogo = 'projgeom.png'

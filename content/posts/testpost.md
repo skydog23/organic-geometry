@@ -81,5 +81,6 @@ It appears to me that just by indenting text as if it were code, the text will b
                 dual_login_paper.adf_vci.application_reader_design(
                 graphicsNvramCdma, lpi_footer_snmp, integer_model));
     }
+
 [go]: https://golang.org/
 [gohtmltemplate]: https://golang.org/pkg/html/template/
