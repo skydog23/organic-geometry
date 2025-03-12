@@ -1,5 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+#baseURL='https://skydog23.github.io/organic-geometry'
+#baseURL='http://localhost:1313/organic-geometry'
 title = 'The Wonderful World of Organic Geometry'
 theme = 'hugo-book'
 [markup]
@@ -12,17 +12,7 @@ theme = 'hugo-book'
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['$', '$']]
-    [markup.goldmark.renderHooks]
-      [markup.goldmark.renderHooks.image]
-        enableDefault = true
 [params]
   math = true
   BookSection = '*'
   BookLogo = 'projgeom.png'
-[module]
-  [[module.mounts]]
-    source = 'assets'
-    target = 'assets'
-  [[module.mounts]]
-    source = 'static'
-    target = 'assets'

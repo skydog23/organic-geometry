@@ -1,6 +1,7 @@
 ---
 title: Introduction
 type: docs
+unsafe: false
 ---
 
 # Welcome 
@@ -14,7 +15,7 @@ One of the deepest aspects of projective geometry is the principle of *duality*,
 
 <div style=" margin: 1em; width: 300px; border: 1px solid #ccc; padding: 0.0em;">
   <figure>
-    <img src="/images/pascalThm.png"  alt="My Image">
+    <img src="images/pascalThm.png"  alt="My Image">
       <figcaption style="text-align: center; font-size: 0.8em;">Pascal's Theorem (1640)</figcaption>
   </figure>
 </div>
@@ -32,7 +33,7 @@ The hexagon is given in the figure by $ABCA'B'C'$. The six sides are $\{AB,BC,CA
 
 <div style="margin: 1em; width: 325px; display: block; margin: 0 auto; border: 1px solid #ccc; padding: 0.0em;">
   <figure>
-    <img src="/images/brianchonThm.png"  alt="My Image">
+    <img src="images/brianchonThm.png"  alt="My Image">
     <figcaption style="text-align: center; font-size: 0.8em;">Brianchon's Theorem (1814)</figcaption>
   </figure>
 </div>

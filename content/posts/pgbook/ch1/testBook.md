@@ -7,7 +7,7 @@ categories = [
     "Testing",
 ]
 menu = "pgbook"
-type = "post"
+type = "posts"
 +++
 
 

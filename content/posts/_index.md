@@ -1,7 +1,7 @@
 ---
 menu:
   after:
-    name: blog
+    name: all
     weight: 5
-title: Blog
+title: Organic Geometry
 ---

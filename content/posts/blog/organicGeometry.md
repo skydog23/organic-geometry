@@ -46,11 +46,11 @@ Proof," "Proof by Organic Geometry."</p>
 
 <div class="flex-container">
     <figure class="flex-item">
-        <img src="/images/MacLaurinFrontPage.jpg" width="270px" alt="Maclaurin Front Page">
+        <img src="images/MacLaurinFrontPage.jpg" width="270px" alt="Maclaurin Front Page">
         <figcaption>Organic geometry, 1720 ...</figcaption>
     </figure>
     <figure class="flex-item">
-        <img src="/images/GretschelFrontPage.png" width="250px" alt="Gretschel Front Page">
+        <img src="images/GretschelFrontPage.png" width="250px" alt="Gretschel Front Page">
         <figcaption>... and 1868.</figcaption>
     </figure>
 </div>
