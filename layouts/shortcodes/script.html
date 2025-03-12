@@ -1,0 +1,16 @@
+{{/* layouts/shortcodes/js.html */}}
+{{ $src := .Get 0 }}
+{{ $type := .Get "type" | default "text/javascript" }}
+{{ $defer := .Get "defer" | default false }}
+{{ $async := .Get "async" | default false }}
+{{ $integrity := .Get "integrity" }}
+{{ $crossorigin := .Get "crossorigin" }}
+
+<script
+  src="{{ $src | relURL }}"
+  type="{{ $type }}"
+  {{ if $defer }}defer{{ end }}
+  {{ if $async }}async{{ end }}
+  {{ with $integrity }}integrity="{{ . }}"{{ end }}
+  {{ with $crossorigin }}crossorigin="{{ . }}"{{ end }}
+></script>

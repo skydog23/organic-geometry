@@ -1,1 +1,16 @@
-<img src="{{  .Get  "src" | relURL }}" alt="{{ .Get "alt" }}" class="{{ with .Get "class" }}"{{ . }}{{ end }}">
+{{/* layouts/shortcodes/img.html */}}
+{{ $src := .Get 0 }}
+{{ $alt := .Get "alt" | default $src }}
+{{ $class := .Get "class" }}
+{{ $loading := .Get "loading" | default "lazy" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+
+<img
+  src="{{ $src | relURL }}"
+  alt="{{ $alt }}"
+  {{ with $class }}class="{{ . }}"{{ end }}
+  loading="{{ $loading }}"
+  {{ with $width }}width="{{ . }}"{{ end }}
+  {{ with $height }}height="{{ . }}"{{ end }}
+>
