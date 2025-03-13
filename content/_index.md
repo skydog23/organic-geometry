@@ -13,7 +13,7 @@ One of the deepest aspects of projective geometry is the principle of *duality*,
 {{% columns %}}
 ## Pascal's Theorem 
 
-{{< img src="/images/pascalThm.png"  alt="Pascals Theorem (1640)" width="300px" >}}
+{{< img src="images/pascalThm.png"  alt="Pascals Theorem (1640)" width="300px" >}}
 
 <div>
 <p>The meeting points of opposite sides of a hexagon inscribed in a conic section are collinear. </p>
@@ -27,7 +27,7 @@ The hexagon is given in the figure by $ABCA'B'C'$. The six sides are $\{AB,BC,CA
 ## Brianchon's Theorem
 
 <div>
-{{< img src="/images/brianchonThm.png"  alt="Brianchon Theorem (1814)" width=325px >}}
+{{< img src="images/brianchonThm.png"  alt="Brianchon Theorem (1814)" width=325px >}}
 </div>
  
 The joining lines of opposite vertices of a hexalateral circumscribed around a conic section are co-punctual.
