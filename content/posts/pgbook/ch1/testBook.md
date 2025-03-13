@@ -35,7 +35,7 @@ Consider the following two statements in plane geometry.
   </div>
 </div>
 
-{{< script "/js/ganja/duality.js"  >}}
+{{< script "js/ganja/duality.js"  >}}
 <div class="two-column-container">
   <div class="column">
     <div id="ganja-script"  width:95%; height:95%; background:#ffffcc">
