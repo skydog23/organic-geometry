@@ -13,12 +13,7 @@ One of the deepest aspects of projective geometry is the principle of *duality*,
 {{% columns %}}
 ## Pascal's Theorem 
 
-<div style=" margin: 1em; border: 1px solid #ccc; padding: 0.0em;">
-  <figure>
-    {{ <img src="/images/pascalThm.png"  alt="My Image" width="300px"> }}
-      <figcaption style="text-align: center; font-size: 0.8em;">Pascal's Theorem (1640)</figcaption>
-  </figure>
-</div>
+{{< img src="/images/pascalThm.png"  alt="Pascals Theorem (1640)" width="300px" >}}
 
 <div>
 <p>The meeting points of opposite sides of a hexagon inscribed in a conic section are collinear. </p>
@@ -31,17 +26,14 @@ The hexagon is given in the figure by $ABCA'B'C'$. The six sides are $\{AB,BC,CA
 
 ## Brianchon's Theorem
 
-<div style="margin: 1em; width: 325px; display: block; margin: 0 auto; border: 1px solid #ccc; padding: 0.0em;">
-  <figure>
-    {{ <img src="/images/brianchonThm.png"  alt="My Image" width=325px > }}
-    <figcaption style="text-align: center; font-size: 0.8em;">Brianchon's Theorem (1814)</figcaption>
-  </figure>
+<div>
+{{< img src="/images/brianchonThm.png"  alt="Brianchon Theorem (1814)" width=325px >}}
 </div>
-The joining lines of opposite vertices of a hexalateral circumscribed around a conic section are co-punctual.
-
-### Discussion
-The hexalateral is given in the figure by $abca'b'c'$. The six vertices are the intersection points $\{ab, bc, ca', a'b', b'c', c'a\}$. Their joining lines are $a'' = bc \wedge b'c'$, etc. These three lines always have a common point!
-
+ 
+ 
+ 
+ 
+ 
 {{% /columns %}}
 
 

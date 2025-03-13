@@ -1,16 +1,14 @@
 {{/* layouts/shortcodes/img.html */}}
-{{ $src := .Get 0 }}
+{{ $src := .Get "src" }}
 {{ $alt := .Get "alt" | default $src }}
 {{ $class := .Get "class" }}
 {{ $loading := .Get "loading" | default "lazy" }}
 {{ $width := .Get "width" }}
 {{ $height := .Get "height" }}
 
-<img
-  src="{{ $src | relURL }}"
-  alt="{{ $alt }}"
-  {{ with $class }}class="{{ . }}"{{ end }}
-  loading="{{ $loading }}"
-  {{ with $width }}width="{{ . }}"{{ end }}
-  {{ with $height }}height="{{ . }}"{{ end }}
->
+<figure>
+    <img src="{{ $src | relURL }}" {{ with $class }}class="{{ . }}" {{ end }}
+            loading="{{ $loading }}" {{ with $width }}width="{{ . }}" {{ end }} {{ with $height }}height="{{ . }}" {{
+            end }}>
+    <figcaption style="text-align: center; font-size: 0.8em;">"{{ $alt }}"</figcaption>
+</figure>
