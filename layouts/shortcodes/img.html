@@ -10,5 +10,5 @@
     <img src="{{ $src | relURL }}" {{ with $class }}class="{{ . }}" {{ end }}
             loading="{{ $loading }}" {{ with $width }}width="{{ . }}" {{ end }} {{ with $height }}height="{{ . }}" {{
             end }}>
-    <figcaption style="text-align: center; font-size: 0.8em;">"{{ $alt }}"</figcaption>
+    <figcaption style="text-align: center; font-size: 0.8em;">{{ $alt }}</figcaption>
 </figure>

@@ -15,5 +15,6 @@ type = "posts"
 - [ ] Investigate how to add GUI to ganja demos
 - [ ] Look into font size and spacing -- it seems small and spread out
 - [ ] Migrate the ganja notebooks into pgbook
+- [ ] Figure out how to pass parameters to the ganja scripts
 
 

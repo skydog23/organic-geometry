@@ -30,7 +30,10 @@ The hexagon is given in the figure by $ABCA'B'C'$. The six sides are $\{AB,BC,CA
 {{< img src="/images/brianchonThm.png"  alt="Brianchon Theorem (1814)" width=325px >}}
 </div>
  
- 
+The joining lines of opposite vertices of a hexalateral circumscribed around a conic section are co-punctual.
+
+### Discussion
+The hexalateral is given in the figure by $abca'b'c'$. The six vertices are the intersection points $\{ab, bc, ca', a'b', b'c', c'a\}$. Their joining lines are $a'' = bc \wedge b'c'$, etc. These three lines always have a common point! 
  
  
  
