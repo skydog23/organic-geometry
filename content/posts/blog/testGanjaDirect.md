@@ -16,6 +16,6 @@ On this page I want to test including ganja code directly in the post. This will
 Here's some text.
 </div>
 
-{{< script "/js/ganja/testGanja.js" >}}
+{{< script "js/ganja/testGanja.js" >}}
 
 

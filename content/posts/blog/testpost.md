@@ -20,11 +20,11 @@ With the hugo-book theme, I am beginning to have some success!
 <div> 
 
   <div style="float: inline-start; margin: 1em; max-width: 150px; border: 0px solid #ccc; padding: 0.0em;">
-    {{< img src="/images/GretschelFrontPage.png" alt="157 years old!" >}}
+    {{< img src="images/GretschelFrontPage.png" alt="157 years old!" >}}
   </div>
   
 <div style="float: inline-end; margin: 1em; max-width: 150px; border: 0px solid #ccc; padding: 0.0em;">
-      {{< img src="/images/GretschelFrontPage.png" alt="Wow!" >}}
+      {{< img src="images/GretschelFrontPage.png" alt="Wow!" >}}
 
 </div>
 
