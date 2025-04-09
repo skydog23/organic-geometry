@@ -1,12 +1,12 @@
-<div style="display: flex; align-items: flex-start; margin: 1em 0;">
-    <div style="flex: 1; padding-right: 1em;">
-      {{ .Inner }}
-    </div>
-    <div style="flex-shrink: 0; margin-left: 1em;">
-      <figure style="float: {{ .Get "align" | default "right" }}; max-width: {{ .Get "width" | default "300px" }};">}};">
-        <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="max-width: 100%; height: auto;">
-        <figcaption style="text-align: center; font-size: 0.8em;">{{ .Get "caption" }}</figcaption>
+<div style="display: flex; align-items: flex-start; margin: 0em 0;">
+     <div style="flex-shrink: 0; margin-left: 0em;">
+      <figure style="float: {{ .Get "align" | default "right" }}; max-width: {{ .Get "width" | default "300px" }};">
+        <img src="{{ .Get "src"  | relURL }}" alt="{{ .Get "alt" }}" style="max-width: 100%; height: auto;">
+        <!-- <figcaption style="text-align: center; font-size: 0.8em;">{{ .Get "caption" }}</figcaption> -->
       </figure>
+    </div>
+    <div style="flex: 1; padding-right: 0em;">
+      {{ .Inner }}
     </div>
   </div>
   

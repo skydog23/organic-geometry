@@ -19,12 +19,12 @@ With the hugo-book theme, I am beginning to have some success!
 <p>
 <div> 
 
-  <div style="float: inline-start; margin: 1em; max-width: 150px; border: 0px solid #ccc; padding: 0.0em;">
-    {{< img src="images/GretschelFrontPage.png" alt="157 years old!" >}}
-  </div>
+ <div style="float: inline-start; margin: 0.1em; border: 0px solid #ccc; padding: 0.0em; ">
+    {{< img src="images/portraits/GretschelFrontPage.png" width="100px" height="auto" alt="157 years old!" >}}
+ </div>
   
-<div style="float: inline-end; margin: 1em; max-width: 150px; border: 0px solid #ccc; padding: 0.0em;">
-      {{< img src="images/GretschelFrontPage.png" alt="Wow!" >}}
+<div style="float: inline-end; margin: 0.1em; width=200px border: 0px solid #ccc; padding: 0.0em;">
+     {{< img src="images/portraits/GretschelFrontPage.png" width="200px" height="auto" alt="Wow!" >}}
 
 </div>
 
@@ -76,6 +76,17 @@ It appears to me that just by indenting text as if it were code, the text will b
                 dual_login_paper.adf_vci.application_reader_design(
                 graphicsNvramCdma, lpi_footer_snmp, integer_model));
     }
+
+### Using a shortcode for floating figures
+
+{{< imgDiv class="img-div" >}}
+ 
+TYPO3 uses a template engine to generate the necessary HTML markup for a website. The template engine provides data from the backend, such as content or menu structures, which can then be formatted with HTML.  TYPO3's template engine of choice is called Fluid. Fluid's syntax is inspired by the syntax of HTML or XML documents, so it should already be familiar for users that already know HTML. Letztes Wochenende waren wir zur Hauptprobe, und wir waren begeistert: Von der Musik, von der Freude der Beteiligten und von der Botschaft, die davon ausgeht.
+Wir würden uns freuen, wenn Ihr kommt. Meldet Euch bei uns vor dem Ticket-Kauf: Als Mitsänger haben wir Rabattgutscheine (15%), die wir Euch gern geben.
+Seid dabei am 22. März um 19 Uhr in der Uber-Arena, Nähe Ostbahnhof.
+
+Ich sende euch ein Dokument von George Adams aus dem Jahr 1942, einen langen Brief an seine Kollegin Olive Whicher, in dem er seine „wissenschaftliche Autobiografie“ nachzeichnet und dabei meisterhaft beschreibt, wie die moderne Wissenschaft und Mathematik mit Hilfe der Geisteswissenschaft neu interpretiert werden kann.
+{{< /imgDiv >}}
 
 [go]: https://golang.org/
 [gohtmltemplate]: https://golang.org/pkg/html/template/

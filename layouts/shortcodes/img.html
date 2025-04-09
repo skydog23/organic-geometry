@@ -1,4 +1,5 @@
 {{/* layouts/shortcodes/img.html */}}
+{{ $divclass := .Get "divclass"}}
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" | default $src }}
 {{ $class := .Get "class" }}
@@ -6,9 +7,9 @@
 {{ $width := .Get "width" }}
 {{ $height := .Get "height" }}
 
-<figure>
-    <img src="{{ $src | relURL }}" {{ with $class }}class="{{ . }}" {{ end }}
+<!-- <div {{ with $divclass }}class="{{ . }}" {{ end }} -->
+     <img src="{{ $src | relURL }}" {{ with $class }}class="{{ . }}" {{ end }}
             loading="{{ $loading }}" {{ with $width }}width="{{ . }}" {{ end }} {{ with $height }}height="{{ . }}" {{
             end }}>
-    <figcaption style="text-align: center; font-size: 0.8em;">{{ $alt }}</figcaption>
-</figure>
+<!-- </div> -->
+                  
