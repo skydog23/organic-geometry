@@ -16,5 +16,6 @@ type = "posts"
 - [ ] Look into font size and spacing -- it seems small and spread out
 - [ ] Migrate the ganja notebooks into pgbook
 - [ ] Figure out how to pass parameters to the ganja scripts
+- [ ] Why do the floated figures have so much space below them?
 
 

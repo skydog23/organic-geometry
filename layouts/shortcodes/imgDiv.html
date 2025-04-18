@@ -1,0 +1,7 @@
+{{/* layouts/shortcodes/img.html */}}
+{{ $float := .Get "float" }}
+{{ $class := .Get "class" }}
+
+<div {{ with $class }}class="{{ . }}" {{ end }}>
+    {{ .Inner }}
+</div>

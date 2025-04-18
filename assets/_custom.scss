@@ -1,3 +1,4 @@
+$font-size-base: 24px !default;
 $blockquote-background:  hsl(175, 85%, 84%) !default;
 .center-figure {
     display: block;
@@ -83,6 +84,13 @@ code {
       max-width: 800px;
 }
   
+.img-div {
+    float: float-start;
+    margin: .1em;
+    border: 0px solid #ccc; 
+    padding: .0em;
+}
+
 body {
   font-family: "Times New Roman", Times, serif;
 }
