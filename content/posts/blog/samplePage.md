@@ -3,6 +3,7 @@ date = '2025-01-17T14:05:11+01:00'
 draft = false
 title = 'Sample page'
 unsafe = 'false'
+menu = "Blog"
 +++
 
 ## A sample page

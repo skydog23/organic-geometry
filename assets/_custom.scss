@@ -17,7 +17,7 @@ $blockquote-background:  hsl(175, 85%, 84%) !default;
 .styled-blockquote {
   margin: 2em 4em; /* Top/bottom margin, left/right margin */
   padding: 1em 2em; /* Top/bottom padding, left/right padding */
-  border-left: 4px solid #ccc; /* Subtle left border for visual cue */
+  border-left: 4px solid #aa0; /* Subtle left border for visual cue */
   font-style: italic; /* Emphasize the text */
   color: #222; /* Slightly muted text color */
   background-color: $blockquote-background; /* Very light background for contrast */
@@ -25,9 +25,9 @@ $blockquote-background:  hsl(175, 85%, 84%) !default;
   line-height: 1.6; /* Increased line height for readability */
   border-radius: 5px; /* Optional: Rounded corners */
   quotes: "“" "”" "‘" "’"; /* Sets custom quote marks */
+  margin-left: 40px; /* Increase the left margin */
+  padding-left: 20px; /* Optional: Add padding inside the blockquote */
 }
-
-
 figcaption {
     font-size: 20px;
     font-style: italic;
