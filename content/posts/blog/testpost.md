@@ -7,6 +7,7 @@ categories = [
     "Suffering",
 ]
 menu = "main"
+draft = "true"
 +++
 
 
